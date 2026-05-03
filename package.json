@@ -1,0 +1,38 @@
+{
+  "name": "bln-git-grammar-hook",
+  "version": "1.0.0",
+  "description": "Pre-commit git hook that checks grammar in markdown files. L1-aware rules for non-native English speakers. Powered by BeLikeNative.",
+  "main": "src/index.mjs",
+  "type": "module",
+  "bin": {
+    "bln-grammar-hook": "src/cli.mjs"
+  },
+  "keywords": [
+    "git-hook",
+    "pre-commit",
+    "grammar",
+    "lint",
+    "markdown",
+    "belikenative",
+    "esl",
+    "writing",
+    "grammar-checker",
+    "spellcheck",
+    "l1-aware"
+  ],
+  "author": "BeLikeNative <hello@belikenative.com>",
+  "license": "MIT",
+  "homepage": "https://belikenative.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theluckystrike/bln-git-grammar-hook"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+}
