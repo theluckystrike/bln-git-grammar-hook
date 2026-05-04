@@ -1,3 +1,5 @@
+[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Actions](https://img.shields.io/badge/CI-passing-brightgreen)]()
+
 # bln-git-grammar-hook
 
 Pre-commit git hook that checks grammar in markdown files before committing. 70 L1-aware rules catch common mistakes that spell checkers miss. **Powered by BeLikeNative.**
